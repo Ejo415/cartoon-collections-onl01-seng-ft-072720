@@ -3,12 +3,12 @@ def roll_call_dwarves(array)
   array.each do |dwarf|
     puts "#{counter}#{dwarf}"
     counter += 1 
-    
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_plane(array)
+  array.map do |element|
+    puts 
 end
 
 def long_planeteer_calls# code an argument here
