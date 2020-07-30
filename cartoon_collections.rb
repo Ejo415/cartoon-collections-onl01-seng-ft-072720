@@ -17,10 +17,10 @@ end
 def long_planeteer_calls(array)
   i = 0
   if array.all? {|word| word.length > 4} 
-    true
+   return true
   else
-    false
-    i = i + 1
+    return false
+    
   end
      
 end
