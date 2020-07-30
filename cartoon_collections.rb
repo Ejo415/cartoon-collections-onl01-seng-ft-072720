@@ -10,6 +10,7 @@ def summon_captain_plane(array)
   array.map do |element|
     puts "element.capitalize !"
   end 
+  array
 end
 
 def long_planeteer_calls# code an argument here
